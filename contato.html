@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nome da Página</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="header-grid">
+            <div class="logo">
+                <img src="file:///C:/Users/silva.bruno/Documents/Blog/logo.png" alt="Logo da Empresa">
+            </div>        
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <div id="search-container">
+                        <form action="/pesquisa" method="get">
+                            <input type="text" id="pesquisa" name="q" placeholder="Pesquisar...">
+                            <button type="submit">Pesquisar</button>
+                        </form>
+                    </div>
+
+            <li class="search-icon"><a id="search-toggle" href="#">🔍</a></li>
+
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var searchToggle = document.getElementById("search-toggle");
+        var searchContainer = document.getElementById("search-container");
+        var navMenu = document.querySelector("nav ul");
+
+        searchToggle.addEventListener("click", function (event) {
+            event.preventDefault(); // Impede o comportamento padrão do link
+            searchContainer.classList.toggle("expanded");
+            navMenu.classList.toggle("pushed");
+        });
+    });
+
+</script>
+
+</body>
+</html>
