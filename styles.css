@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #1E1E1E; /* Cor de fundo da página */
+    font-family: 'Poppins', sans-serif; /* Substitua 'Nome da Fonte' pelo nome da fonte */
+}
+
 /* Estilos do cabeçalho */
 header {
     background-color: #000; /* Cor de fundo do cabeçalho */
