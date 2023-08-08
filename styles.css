@@ -33,6 +33,94 @@ header {
     height: auto; /* Mantém a proporção da imagem */
 }
 
+/* Estilos da imagem de fundo */
+.background-image {
+    position: relative;
+    height: 100vh; /* Tamanho da imagem de fundo */
+    background: url('file:///C:/Users/silva.bruno/Documents/Blog/fundo.jpg') no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+}
+
+/* Estilos do conteúdo sobreposto */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.overlay a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.overlay a:hover {
+    background-color: #000;
+    color: #FF0000;
+}
+
+.welcome-section {
+        background-color: #333; /* Fundo cinza chumbo */
+        color: #FFF; /* Texto branco */
+        text-align: center;
+        padding: 40px 0;
+    }
+
+.welcome-section h1 {
+        margin: 0;
+    }
+
+.welcome-section p {
+    margin: 0;
+    font-size: 14px;
+}
+
+    .icon-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Três colunas com largura igual */
+        gap: 20px; /* Espaçamento entre os itens do grid */
+        padding: 40px;
+        text-align: center;
+    }
+
+    .icon-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    icon-item img {
+        width: 100px; /* Tamanho do ícone */
+        height: 100px;
+    }
+
+
+
 nav ul {
     list-style: none;
     display: flex;
