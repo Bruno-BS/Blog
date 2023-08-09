@@ -239,7 +239,7 @@ nav ul.pushed {
 
 /* Estilo para links visitados */
 a:visited {
-    color: #000; /* Mesma cor que os links não visitados ou uma cor diferente */
+    color: #FFF; /* Mesma cor que os links não visitados ou uma cor diferente */
     text-decoration: none; /* Remover sublinhado */
 }
 
