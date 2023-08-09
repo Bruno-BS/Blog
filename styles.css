@@ -236,3 +236,10 @@ nav ul.pushed {
         opacity: 1;
     }
 }
+
+/* Estilo para links visitados */
+a:visited {
+    color: #000; /* Mesma cor que os links não visitados ou uma cor diferente */
+    text-decoration: none; /* Remover sublinhado */
+}
+
