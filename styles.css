@@ -13,7 +13,7 @@ body {
 /* Estilos do cabeçalho */
 header {
     background-color: #000; /* Cor de fundo do cabeçalho */
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
