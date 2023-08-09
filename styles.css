@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #1E1E1E; /* Cor de fundo da página */
+    background-color: #333; /* Cor de fundo da página */
     font-family: 'Poppins', sans-serif; /* Substitua 'Nome da Fonte' pelo nome da fonte */
 }
 
@@ -37,7 +37,7 @@ header {
 .background-image {
     position: relative;
     height: 100vh; /* Tamanho da imagem de fundo */
-    background: url('/fundo.jpg') no-repeat center center fixed;
+    background: url('file:///C:/Users/silva.bruno/Documents/Blog/fundo.jpg') no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ header {
 
 .overlay p {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin: 20px 200px;
 }
 
 .overlay a {
@@ -194,5 +194,45 @@ nav ul.pushed {
 
     #search-container.expanded {
         width: 100%; /* Largura da caixa de pesquisa ocupa todo o espaço em telas menores */
+    }
+}
+
+
+/*CSS da grid da produtos.html*/
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* Define uma largura máxima para o grid */
+    margin: 0 auto; /* Centraliza o grid na página */
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+.product {
+    text-align: center;
+    color: #FFF;
+    width: calc(33.333% - 20px); /* Calcula o tamanho das colunas com espaço entre elas */
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.products a:hover {
+    color: #FF0000;
+}
+
+.product img {
+    max-width: 100%;
+    max-height: 450px;
+}
+
+
+/* Animação de fade-in */
+@keyframes fade-in {
+    to {
+        opacity: 1;
     }
 }

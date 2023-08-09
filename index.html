@@ -6,21 +6,23 @@
     <link rel="stylesheet" href="styles.css">
     <title>Nome da Página</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+
 </head>
 <body>
     
     <header>
         <div class="header-grid">
             <div class="logo">
-                <img src="\logo.jpg" alt="Logo da Empresa">
+                <img src="C:\Users\silva.bruno\Documents\Blog\logo.jpg" alt="Logo da Empresa">
             </div>        
 
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <!--<li><a href="blog.html">Blog</a></li>-->
                     <li><a href="contato.html">Contato</a></li>
                     <div id="search-container">
                         <form action="/pesquisa" method="get">
@@ -41,9 +43,9 @@
     <!-- IMAGEM DE FUNDO -->
     <div class="background-image">
         <div class="overlay">
-            <h1>Mensagem</h1>
-            <p>Legenda</p>
-            <a href="sobre.html">Sobre</a>
+            <h1></h1>
+            <p>Transforme sua casa em um refúgio de estilo e conforto com os melhores móveis! Explore nossa coleção exclusiva e encontre peças que combinam perfeitamente com o seu espaço. Renove sua decoração hoje mesmo e descubra o poder do design em cada detalhe. Clique em saiba mais para explorar nossa seleção de móveis e comece a criar o lar dos seus sonhos!</p>
+            <a href="produtos.html">Saiba mais</a>
         </div>
     </div>
 
@@ -54,38 +56,22 @@
         <div class="icon-grid">
             <div class="icon-item">
                 <img src="icon.png" alt="Ícone 1">
-                <h2>Título 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec suscipit erat. Vivamus eget justo vel orci venenatis hendrerit.</p>
+                <h2>Sofás</h2>
+                <p>Experimente o auge do conforto e elegância com os nossos sofás de qualidade excepcional. Cada peça é cuidadosamente projetada e fabricada para proporcionar um suporte ergonômico incomparável, combinado com acabamentos requintados que adicionam um toque de luxo à sua sala. Nossos sofás são construídos com materiais duráveis e resistentes, garantindo que você desfrute de anos de conforto e estilo sem comprometer a qualidade. Encontre o sofá dos seus sonhos em nossa coleção e eleve o nível da sua experiência de estar.</p>
             </div>
             <div class="icon-item">
                 <img src="icon2.png" alt="Ícone 2">
-                <h2>Título 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec suscipit erat. Vivamus eget justo vel orci venenatis hendrerit.</p>            </div>
+                <h2>Mesas</h2>
+                <p>Eleve suas refeições a um novo patamar de sofisticação com as nossas mesas incomparáveis. Cada mesa é uma obra-prima de design e artesanato, construída para resistir ao teste do tempo enquanto adiciona um toque de elegância ao seu espaço. Nossas mesas são confeccionadas com materiais de primeira linha, combinando estilo e durabilidade para enriquecer suas ocasiões especiais e encontros cotidianos. Seja para jantares íntimos ou celebrações grandiosas, nossas mesas de jantar são o cenário perfeito para momentos inesquecíveis. Explore nossa coleção agora e descubra a harmonia perfeita entre forma e função.</p>
+            </div>
             <div class="icon-item">
                 <img src="icon3.png" alt="Ícone 3">
-                <h2>Título 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec suscipit erat. Vivamus eget justo vel orci venenatis hendrerit.</p>
+                <h2>Banquetas</h2>
+                <p>Adicione um toque de versatilidade e charme à sua casa com as nossas banquetas de destaque. Projetadas para se destacarem em estilo e funcionalidade, nossas banquetas são o complemento perfeito para qualquer espaço. Com designs modernos e clássicos, cada peça é cuidadosamente construída para proporcionar conforto ergonômico e durabilidade excepcional. Seja para a sua cozinha, bar ou área de estar, nossas banquetas são o equilíbrio perfeito entre elegância e praticidade. Explore nossa seleção exclusiva hoje mesmo e eleve a estética e o conforto do seu ambiente com nossas deslumbrantes banquetas.</p>
             </div>
         </div>
     </div>
 
-
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var searchToggle = document.getElementById("search-toggle");
-        var searchContainer = document.getElementById("search-container");
-        var navMenu = document.querySelector("nav ul");
-
-        searchToggle.addEventListener("click", function (event) {
-            event.preventDefault(); // Impede o comportamento padrão do link
-            searchContainer.classList.toggle("expanded");
-            navMenu.classList.toggle("pushed");
-        });
-    });
-
-</script>
 
 </body>
 </html>

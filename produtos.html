@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles.css">
     <title>Nome da Página</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+
 </head>
 <body>
     
@@ -19,8 +21,8 @@
                 <ul>
                     <li><a href="index.html">Início</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <!--<li><a href="blog.html">Blog</a></li>-->
                     <li><a href="contato.html">Contato</a></li>
                     <div id="search-container">
                         <form action="/pesquisa" method="get">
@@ -36,20 +38,34 @@
             </nav>
         </div>
     </header>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var searchToggle = document.getElementById("search-toggle");
-        var searchContainer = document.getElementById("search-container");
-        var navMenu = document.querySelector("nav ul");
 
-        searchToggle.addEventListener("click", function (event) {
-            event.preventDefault(); // Impede o comportamento padrão do link
-            searchContainer.classList.toggle("expanded");
-            navMenu.classList.toggle("pushed");
-        });
-    });
+<main>
+    <div class="products">
+        <div class="product">
+            <a href="sofas.html"><img src="C:\Users\silva.bruno\Documents\Blog\Produtos\Sofas\sofa1.jpeg" alt="Sofá"></a>
+            <h2>Sofás</h2>
+            <p>Conheça nossa linha de sofás confortáveis e elegantes.</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\silva.bruno\Documents\Blog\Produtos\Mesas\mesa1.jpeg" alt="Mesa">
+            <h2>Mesas</h2>
+            <p>Descubra nossas mesas modernas e funcionais para sua casa.</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\silva.bruno\Documents\Blog\Produtos\Banquetas\banqueta1.jpeg" alt="Banqueta">
+            <h2>Banquetas</h2>
+            <p>Explore nossas banquetas de design exclusivo para sua cozinha.</p>
+        </div>
+    </div>
+</main>
 
-</script>
+
+<footer>
+    <!--Rodapé-->
+</footer>
 
 </body>
+
+<script src="script.js"></script>
+
 </html>
