@@ -243,3 +243,6 @@ a:visited {
     text-decoration: none; /* Remover sublinhado */
 }
 
+a:focus {
+    outline: none; /* Remover a borda padrão do foco */
+}
