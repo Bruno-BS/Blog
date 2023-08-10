@@ -181,16 +181,6 @@ nav ul.pushed {
 
 /* Estilos para telas menores */
 
-@media screen and (max-width: 768px) {
-    .products {
-        justify-content: center; /* Centraliza os produtos na tela */
-    }
-
-    .product {
-        width: 100%; /* Define a largura para ocupar toda a largura da tela */
-    }
-}
-
 @media screen and (min-width: 769px) {
     header {
         padding: 10px 220px; /* Adiciona margem de 10px no topo e 22px nas laterais */
@@ -229,26 +219,6 @@ nav ul.pushed {
     }
 
 }
-
-@media screen and (max-width: 100%) {
-    .logo img {
-        width: 150px; /* Tamanho da imagem da logo em telas menores */
-    }
-
-    .search-icon,
-    #search-container {
-        order: 2; /* Altera a ordem da lupa e da caixa de pesquisa em telas menores */
-    }
-
-    nav ul.pushed {
-        margin-left: 0; /* Remove a margem esquerda da caixa de pesquisa em telas menores */
-    }
-
-    #search-container.expanded {
-        width: 100%; /* Largura da caixa de pesquisa ocupa todo o espaço em telas menores */
-    }
-}
-
 
 /*CSS da grid da produtos.html*/
 .products {
@@ -294,4 +264,31 @@ nav ul.pushed {
 a {
     color: #FFF; /* Mesma cor que os links não visitados ou uma cor diferente */
     text-decoration: none; /* Remover sublinhado */
+}
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 150px; /* Tamanho da imagem da logo em telas menores */
+    }
+
+    .search-icon,
+    #search-container {
+        order: 2; /* Altera a ordem da lupa e da caixa de pesquisa em telas menores */
+    }
+
+    nav ul.pushed {
+        margin-left: 0; /* Remove a margem esquerda da caixa de pesquisa em telas menores */
+    }
+
+    #search-container.expanded {
+        width: 100%; /* Largura da caixa de pesquisa ocupa todo o espaço em telas menores */
+    }
+    .products {
+        justify-content: center; /* Centraliza os produtos na tela */
+    }
+
+    .product {
+        width: 100%; /* Define a largura para ocupar toda a largura da tela */
+    }
+    
 }
