@@ -181,6 +181,16 @@ nav ul.pushed {
 
 /* Estilos para telas menores */
 
+@media screen and (max-width: 768px) {
+    .products {
+        justify-content: center; /* Centraliza os produtos na tela */
+    }
+
+    .product {
+        width: 100%; /* Define a largura para ocupar toda a largura da tela */
+    }
+}
+
 @media screen and (min-width: 769px) {
     header {
         padding: 10px 220px; /* Adiciona margem de 10px no topo e 22px nas laterais */
