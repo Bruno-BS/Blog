@@ -293,7 +293,7 @@ a {
 
     .item {
         flex-direction: column; /* Alinha os elementos verticalmente */
-        align-items: justify; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza horizontalmente */
         padding: 20px; /* Reduz o espaçamento */
     }
 
@@ -306,7 +306,7 @@ a {
     .item-details {
         margin-top: 20px; /* Margem superior reduzida */
         width: 100%; /* Ocupa a largura total */
-        white-space: normal; /* Permite que o texto quebre naturalmente */
+        margin: -190 auto 20px;
     }
    
 }
