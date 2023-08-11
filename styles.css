@@ -303,12 +303,12 @@ a {
 .item-image {
     width: 500px; /* Ajuste conforme necessário */
     height: auto;
-    margin-right: 50px; /* Margem de 200px à direita */
+    margin-right: 25px; /* Margem de 200px à direita */
 }
 
 .item-details {
     flex: 1; /* Cresce para preencher o espaço restante */
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .item-title {
