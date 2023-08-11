@@ -292,10 +292,15 @@ a {
     }
 
     .item {
-        flex-direction: column; /* Alinha os elementos verticalmente */
-        align-items: justify; /* Centraliza horizontalmente */
-        padding: 20px; /* Reduz o espaçamento */
-        margin: -190 auto 20px; /* Centraliza a imagem e adiciona margem inferior */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* Define uma largura máxima para o grid */
+    margin: 0 auto; /* Centraliza o grid na página */
+    opacity: 0;
+
     }
 
     .item-image {
