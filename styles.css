@@ -320,13 +320,14 @@ a {
     .item-image {
         width: 400px; /* Ajuste conforme necessário */
         height: auto;
-        margin-right: 50px; /* Margem de 200px à direita */
+        margin-left: 200px; /* Margem de 200px à direita */
         padding: 10px 20px;
     }
 
     .item-details {
         flex: 1; /* Cresce para preencher o espaço restante */
         margin-top: 50px;
+        margin-right: 200px;
         padding: 10px 20px;
     }
 
