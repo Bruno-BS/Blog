@@ -293,14 +293,14 @@ a {
 
     .item {
         flex-direction: column; /* Alinha os elementos verticalmente */
-        align-items: center; /* Centraliza horizontalmente */
+        align-items: justify; /* Centraliza horizontalmente */
         padding: 20px; /* Reduz o espaçamento */
+        margin: -190 auto 20px; /* Centraliza a imagem e adiciona margem inferior */
     }
 
     .item-image {
         width: 100%; /* Imagem ocupa a largura total */
         max-width: 250px; /* Máximo de 400px */
-        margin: -190 auto 20px; /* Centraliza a imagem e adiciona margem inferior */
     }
 
     .item-details {
