@@ -37,7 +37,7 @@ header {
 .background-image {
     position: relative;
     height: 100vh; /* Tamanho da imagem de fundo */
-    background: url('/fundo.jpg') no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
+    background: url('file:///C:/Users/silva.bruno/Documents/Blog/fundo.jpg') no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -236,7 +236,7 @@ nav ul.pushed {
 .product {
     text-align: center;
     color: #FFF;
-    width: calc(33.333% - 20px); /* Calcula o tamanho das colunas com espaço entre elas */
+    width: calc(33% - 20px); /* Calcula o tamanho das colunas com espaço entre elas */
     margin-bottom: 20px;
     position: relative;
     overflow: hidden;
@@ -291,4 +291,62 @@ a {
         width: 100%; /* Define a largura para ocupar toda a largura da tela */
     }
     
+}
+
+    .item {
+    display: flex;
+    padding: 20px 200px;
+    color: #FFF;
+
+}
+
+.item-image {
+    width: 500px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 50px; /* Margem de 200px à direita */
+}
+
+.item-details {
+    flex: 1; /* Cresce para preencher o espaço restante */
+    margin-top: 50px;
+}
+
+.item-title {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.item-info-title {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.item-info {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify; /* Justificação do texto */
+}
+
+.botao-voltar {
+    display: inline-flex; /* Tornar o link um bloco para ocupar toda a largura disponível */
+    margin-top: 20px; /* Espaço entre o item-details e o botão */
+    text-align: left; /* Centralizar o texto horizontalmente */
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.fade-in {
+    animation: fadeInAnimation ease 2s; /* Duração da animação de 2 segundos */
+    animation-iteration-count: 1; /* Executar a animação apenas uma vez */
+    animation-fill-mode: forwards; /* Manter o estado final da animação */
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; /* Começar com a imagem invisível */
+    }
+    100% {
+        opacity: 1; /* Terminar com a imagem totalmente visível */
+    }
 }
