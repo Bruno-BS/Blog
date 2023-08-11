@@ -290,6 +290,14 @@ a {
     .product {
         width: 100%; /* Define a largura para ocupar toda a largura da tela */
     }
+
+    .item {
+    display: flex;
+    padding: 20px 200px;
+    color: #FFF;
+    width: 250px; /* Ajuste conforme necessário */
+    height: 250px;
+    }
     
 }
 
