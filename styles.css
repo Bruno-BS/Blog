@@ -292,8 +292,8 @@ a {
     }
 
     .item {
+        display: grid;
         justify-content: center; /* Centraliza os produtos na tela */
-        flex-direction: column; /* Alinha os elementos verticalmente */
         align-items: center; /* Centraliza horizontalmente */
         padding: 20px; /* Reduz o espaçamento */
     }
