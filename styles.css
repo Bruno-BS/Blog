@@ -299,8 +299,8 @@ a {
 
     .item-image {
         width: 100%; /* Imagem ocupa a largura total */
-        max-width: 400px; /* Máximo de 400px */
-        margin: -200 auto 20px; /* Centraliza a imagem e adiciona margem inferior */
+        max-width: 250px; /* Máximo de 400px */
+        margin: -190px 20px; /* Centraliza a imagem e adiciona margem inferior */
     }
 
     .item-details {
