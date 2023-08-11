@@ -293,6 +293,7 @@ a {
 
     .item {
     display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
