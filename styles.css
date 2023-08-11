@@ -37,7 +37,7 @@ header {
 .background-image {
     position: relative;
     height: 100vh; /* Tamanho da imagem de fundo */
-    background: url('file:///C:/Users/silva.bruno/Documents/Blog/fundo.jpg') no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
+    background: url('/fundo.jpg') no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     display: flex;
     align-items: center;
