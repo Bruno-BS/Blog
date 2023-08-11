@@ -298,6 +298,34 @@ a {
     width: 250px; /* Ajuste conforme necessário */
     height: 250px;
     }
+
+    .item-image {
+        width: 250px; /* Ajuste conforme necessário */
+        height: auto;
+        margin-right: 00px; /* Margem de 200px à direita */
+    }
+
+    .item-details {
+        flex: 1; /* Cresce para preencher o espaço restante */
+        margin-top: 00px;
+    }
+
+    .item-title {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    .item-info-title {
+        font-size: 18px;
+        margin-top: 00px;
+    }
+
+    .item-info {
+        font-size: 16px;
+        margin-top: 00px;
+        text-align: justify; /* Justificação do texto */
+    }
+
     
 }
 
