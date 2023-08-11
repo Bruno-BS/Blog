@@ -305,6 +305,7 @@ a {
 
     .item-details {
         margin-top: 20px; /* Margem superior reduzida */
+        max-width: 80%;
     }
    
 }
