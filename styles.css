@@ -186,6 +186,10 @@ nav ul.pushed {
         padding: 10px 220px; /* Adiciona margem de 10px no topo e 22px nas laterais */
     }
 
+    .item {
+        padding: 10px 200px;
+    }
+
     .overlay p {
     font-size: 18px;
     margin: 20px 200px;
@@ -283,6 +287,7 @@ a {
     #search-container.expanded {
         width: 100%; /* Largura da caixa de pesquisa ocupa todo o espaço em telas menores */
     }
+    
     .products {
         justify-content: center; /* Centraliza os produtos na tela */
     }
@@ -308,6 +313,7 @@ a {
         width: 100%; /* Define a largura para ocupar toda a largura da tela */
         margin-top: 20px; /* Margem superior reduzida */
         width: 100%; /* Ocupa a largura total */
+        padding: 10px 20px;
     }
 
 
@@ -326,10 +332,8 @@ a {
     }
 
     .item-details {
-        flex: 1; /* Cresce para preencher o espaço restante */
         margin-top: 50px;
         margin-right: 50px;
-        padding: 10px 20px;
     }
 
     .item-title {
@@ -347,7 +351,6 @@ a {
         margin-top: 10px;
         text-align: justify; /* Justificação do texto */
     }
-
 
 .botao-voltar {
     display: inline-flex; /* Tornar o link um bloco para ocupar toda a largura disponível */
