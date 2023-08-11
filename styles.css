@@ -301,7 +301,6 @@ a {
 
     .item-image {
         width: 100%; /* Imagem ocupa a largura total */
-        max-width: 250px; /* Máximo de 400px */
         margin: -100 auto 20px; /* Centraliza a imagem e adiciona margem inferior */
     }
 
