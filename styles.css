@@ -292,7 +292,7 @@ a {
     }
 
     .item {
-        display: inline-grid;
+        display: grid;
         justify-content: center; /* Centraliza os produtos na tela */
         flex-direction: column; /* Alinha os elementos verticalmente */
         align-items: center; /* Centraliza horizontalmente */
@@ -310,6 +310,9 @@ a {
         margin-top: 20px; /* Margem superior reduzida */
         width: 100%; /* Ocupa a largura total */
     }
+
+
+    
 }
 
     .item {
@@ -320,14 +323,13 @@ a {
     .item-image {
         width: 400px; /* Ajuste conforme necessário */
         height: auto;
-        margin-left: 200px; /* Margem de 200px à direita */
         padding: 10px 20px;
     }
 
     .item-details {
         flex: 1; /* Cresce para preencher o espaço restante */
         margin-top: 50px;
-        margin-right: 200px;
+        margin-right: 50px;
         padding: 10px 20px;
     }
 
@@ -346,6 +348,7 @@ a {
         margin-top: 10px;
         text-align: justify; /* Justificação do texto */
     }
+
 
 .botao-voltar {
     display: inline-flex; /* Tornar o link um bloco para ocupar toda a largura disponível */
