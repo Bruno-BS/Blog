@@ -292,12 +292,9 @@ a {
     }
 
     .item {
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto; /* Centraliza o grid na página */
-    opacity: 0;
-
+        flex-direction: column; /* Alinha os elementos verticalmente */
+        align-items: justify; /* Centraliza horizontalmente */
+        padding: 20px; /* Reduz o espaçamento */
     }
 
     .item-image {
